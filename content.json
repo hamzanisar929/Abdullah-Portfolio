@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "issue": "PORTFOLIO — 2026",
+    "edition": "EDITION 2026 // CALIFORNIA",
+    "ticker_top": "VOL. I — FRONTEND ENGINEERING — FULL-STACK DEVELOPMENT — REACT — NEXT.JS — AI SYSTEMS — MODERN WEB — ",
+    "ticker_bottom": "— BUILDING EXPERIENCES THAT SCALE — PERFORMANCE FIRST — USER EXPERIENCE MATTERS — "
+  },
+  "hero": {
+    "headline_1": "Modern",
+    "headline_2": "Interfaces.",
+    "body": "Frontend Developer specializing in React.js, Next.js, TypeScript, and AI-powered web applications. Building responsive user experiences, scalable SaaS platforms, and intelligent products that bridge beautiful design with robust engineering.",
+    "stats": [
+      {
+        "num": "8+",
+        "label": "PROJECTS"
+      },
+      {
+        "num": "AI",
+        "label": "POWERED"
+      },
+      {
+        "num": "FULL",
+        "label": "STACK"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "num": "01",
+      "title": "Auta",
+      "subtitle": "INSTAGRAM DM AUTOMATION PLATFORM",
+      "tags": ["NEXT.JS", "META API", "WEBHOOKS", "2025"],
+      "desc": "AI-powered Instagram automation platform leveraging Graph API integrations, webhook events, and intelligent response workflows to automate customer engagement and messaging operations.",
+      "accent": "red",
+      "href": "#"
+    },
+    {
+      "num": "02",
+      "title": "DentAI",
+      "subtitle": "AI-POWERED DENTAL ASSISTANT",
+      "tags": ["OPENAI", "VOICE AI", "LLM", "2025"],
+      "desc": "Intelligent dental assistant providing voice and text interactions, symptom-based recommendations, contextual conversations, and AI-powered support for patient engagement.",
+      "accent": "blue",
+      "href": "#"
+    },
+    {
+      "num": "03",
+      "title": "Wild Oasis",
+      "subtitle": "HOTEL BOOKING & MANAGEMENT SYSTEM",
+      "tags": ["REACT", "SUPABASE", "CRUD", "2025"],
+      "desc": "Comprehensive hotel management platform featuring reservation tracking, room management, authentication, protected routes, and real-time booking workflows.",
+      "accent": "yellow",
+      "href": "#"
+    },
+    {
+      "num": "04",
+      "title": "Streamify",
+      "subtitle": "AI VIDEO RECORDING & COLLABORATION PLATFORM",
+      "tags": ["NEXT.JS", "AI", "VIDEO", "2026"],
+      "desc": "Full-stack video collaboration platform with optimized recording pipelines, intelligent media processing, workspace management, and team-focused productivity features.",
+      "accent": "black",
+      "href": "#"
+    },
+    {
+      "num": "05",
+      "title": "Search Core",
+      "subtitle": "DISTRIBUTED SEARCH ENGINE INFRASTRUCTURE",
+      "tags": ["NODE.JS", "REDIS", "CRAWLER", "2026"],
+      "desc": "Distributed web crawler and indexing engine built with scalable master-worker architecture, semantic ranking, vector search, and intelligent crawling prioritization.",
+      "accent": "red",
+      "href": "#"
+    },
+    {
+      "num": "06",
+      "title": "Voice Of HUman",
+      "subtitle": "REAL-TIME AI VOICE APPLICATIONS",
+      "tags": ["OPENAI", "ELEVENLABS", "WEBSOCKETS", "2025"],
+      "desc": "Collection of conversational AI applications combining speech recognition, large language models, voice synthesis, and real-time communication technologies.",
+      "accent": "blue",
+      "href": "#"
+    },
+    {
+      "num": "07",
+      "title": "Coder",
+      "subtitle": "AI-POWERED CODING ASSISTANT",
+      "tags": ["NEXT.JS", "OPENAI", "TYPESCRIPT", "2026"],
+      "desc": "Intelligent coding assistant inspired by modern AI IDEs. Features context-aware code generation, debugging support, code explanations, refactoring suggestions, and real-time developer assistance powered by large language models.",
+      "accent": "red",
+      "href": "https://github.com/abdullahdhillu/Cursor.git"
+    },
+    {
+      "num": "06",
+      "title": "MeetAI",
+      "subtitle": "AI MEETING ASSISTANT PLATFORM",
+      "tags": ["NEXT.JS", "OPENAI", "AUTOMATION", "2026"],
+      "desc": "AI-powered meeting assistant that records conversations, generates intelligent summaries, extracts action items, tracks decisions, and automates post-meeting workflows to improve team productivity.",
+      "accent": "blue",
+      "href": "https://github.com/abdullahdhillu/zoomer.git"
+    }
+  ],
+  "experience": [
+    {
+      "years": "2024 — PRES",
+      "role": "Freelance Frontend Developer",
+      "org": "Independent",
+      "desc": "Developing modern web applications using React.js, Next.js, TypeScript, and Node.js. Delivering responsive interfaces, scalable architectures, and production-ready user experiences."
+    },
+    {
+      "years": "2025 — PRES",
+      "role": "AI Application Developer",
+      "org": "Personal Projects",
+      "desc": "Building AI-powered systems integrating OpenAI, voice technologies, conversational interfaces, and automation workflows for real-world applications."
+    },
+    {
+      "years": "2024 — PRES",
+      "role": "Full-Stack Engineer",
+      "org": "Independent Projects",
+      "desc": "Architecting and deploying SaaS products, automation platforms, booking systems, AI assistants, and real-time collaboration applications."
+    }
+  ],
+  "skills": {
+    "buckets": [
+      {
+        "title": "LANGUAGES",
+        "color": "blue",
+        "list": "JavaScript, TypeScript, SQL"
+      },
+      {
+        "title": "FRONTEND",
+        "color": "none",
+        "list": "React.js, Next.js, HTML5, CSS3, Tailwind CSS, Styled Components"
+      },
+      {
+        "title": "BACKEND",
+        "color": "yellow",
+        "list": "Node.js, Express.js, REST APIs, MongoDB, PostgreSQL, Prisma ORM, Supabase"
+      },
+      {
+        "title": "TOOLS & CLOUD",
+        "color": "none",
+        "list": "Git, Docker, Vercel, Webpack, Postman"
+      }
+    ],
+    "marquee": "REACT / NEXT.JS / TYPESCRIPT / NODE.JS / EXPRESS / MONGODB / POSTGRESQL / OPENAI / AI / "
+  },
+  "recognition": [
+    {
+      "org": "UNIVERSITY",
+      "award": "Campus Sustainability Champion — 2025"
+    },
+    {
+      "org": "COMPETITION",
+      "award": "Top Performer In Coding Challenges — 2024"
+    },
+    {
+      "org": "UDEMY",
+      "award": "Full-Stack Development Certification"
+    },
+    {
+      "org": "UDEMY",
+      "award": "Frontend Development Certification"
+    }
+  ],
+  "articles": [
+    {
+      "kind": "PROJECT",
+      "title": "AUTA — INSTAGRAM DM AUTOMATION PLATFORM",
+      "href": "https://github.com/abdullahdhillu/auta"
+    },
+    {
+      "kind": "PROJECT",
+      "title": "DENTAI — AI-POWERED DENTAL ASSISTANT",
+      "href": "https://github.com/abdullahdhillu/DentAi"
+    },
+    {
+      "kind": "PROJECT",
+      "title": "WILD OASIS — HOTEL BOOKING SYSTEM",
+      "href": "https://github.com/abdullahdhillu/the-wild-oasis.git"
+    },
+    {
+      "kind": "PROJECT",
+      "title": "STREAMIFY — AI VIDEO COLLABORATION PLATFORM",
+      "href": "https://github.com/abdullahdhillu/Streamify.git"
+    },
+    {
+      "kind": "PROJECT",
+      "title": "SEARCHCORE — DISTRIBUTED SEARCH ENGINE",
+      "href": "#"
+    },
+    {
+      "kind": "PROJECT",
+      "title": "VOICE OF HUMAN — REAL-TIME VOICE APPLICATIONS",
+      "href": "https://github.com/abdullahdhillu/Cursor.git"
+    },
+    {
+      "kind": "PROJECT",
+      "title": "CODER — AI CODING ASSISTANT",
+      "href": "https://github.com/abdullahdhillu/Cursor.git"
+    },
+    {
+      "kind": "PROJECT",
+      "title": "MEET — AI MEETING ASSISTANT",
+      "href": "https://github.com/abdullahdhillu/zoomer.git"
+    }
+  ],
+  "contact": {
+    "email": "[abdullahdhillu99@gmail.com](mailto:abdullahdhillu99@gmail.com)",
+    "github_org": "https://github.com/abdullahdhillu",
+    "github_personal": "https://github.com/abdullahdhillu",
+    "linkedin": "https://linkedin.com/in/dhillon99",
+    "youtube": "#",
+    "medium": "#",
+    "discord": "#",
+    "buymeacoffee": "#"
+  },
+  "footer": {
+    "left": "© 2026 MUHAMMAD ABDULLAH",
+    "right": "MANIFESTO EDITION"
+  }
+}
