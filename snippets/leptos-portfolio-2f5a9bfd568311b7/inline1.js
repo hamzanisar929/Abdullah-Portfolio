@@ -56,15 +56,31 @@ export function play_splash() {
 }
 
 function init_project_media_inner() {
-    document.querySelectorAll('.project-preview').forEach(video => {
-        video.muted = true;
-        const ready = () => {
-            video.parentElement.classList.add('video-ready');
-            video.play().catch(() => {});
-        };
-        if (video.readyState >= 2) ready();
-        else video.addEventListener('canplay', ready, { once: true });
+    document.querySelectorAll('.project-media.has-video').forEach(media => {
+        const video = media.querySelector('.project-preview');
+        if (!video) return;
+        media.addEventListener('mouseenter', () => {
+            if (!video.src) video.src = video.dataset.src;
+            video.muted = false;
+            video.volume = 1;
+            video.play().catch(() => {
+                // Browsers may block audible playback before the first user activation.
+                // Keep the hover preview working, then enable sound after any click/tap.
+                video.muted = true;
+                video.play().catch(() => {});
+            });
+        });
+        media.addEventListener('mouseleave', () => {
+            video.pause();
+            video.currentTime = 0;
+        });
     });
+    document.addEventListener('pointerdown', () => {
+        document.querySelectorAll('.project-preview').forEach(video => {
+            video.muted = false;
+            video.volume = 1;
+        });
+    }, { once: true });
 }
 
 function animate_hero_inner() {

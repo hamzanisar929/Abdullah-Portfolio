@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hamzanisar929.github.io/Abdullah-Portfolio/sitemap.xml
+Sitemap: https://hamza-fullstack-portfolio.vercel.app/sitemap.xml
