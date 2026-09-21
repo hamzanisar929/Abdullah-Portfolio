@@ -18,20 +18,28 @@ pub fn Projects() -> impl IntoView {
                     <h2 class="section-heading font-sans text-[0.7rem] font-semibold tracking-[0.25em] uppercase text-muted">"SELECTED ARCHIVES"</h2>
                 </div>
             </div>
-            <div class="projects-grid">
+            <div class="projects-card-grid">
                 {projects.into_iter().map(|p| {
                     let open_project = p.clone();
                     let video = p.video.clone();
                     view! {
-                        <article class="project-card project-row invisible hover-target" data-accent=p.accent.clone() on:click=move |_| set_selected.set(Some(open_project.clone()))>
-                            <div class="project-media">
-                                {video.map(|src| view! { <video class="project-preview" src=src prop:muted=true autoplay loop playsinline preload="metadata"></video> })}
-                                <img class:poster-reveal=p.video.is_some() class="project-poster" src=p.poster.clone() alt=format!("{} project poster", p.title) />
-                                <span class="project-number">{p.num.clone()}</span>
-                                {p.video.is_some().then(|| view! { <span class="preview-label">"PREVIEW"</span> })}
+                        <article class="project-row showcase-card invisible hover-target" data-accent=p.accent.clone() on:click=move |_| set_selected.set(Some(open_project.clone()))>
+                            <div class:has-video=p.video.is_some() class="project-media">
+                                {video.map(|src| view! { <video class="project-preview" data-src=src playsinline preload="none"></video> })}
+                                <img class="project-poster" src=p.poster.clone() alt=format!("{} project poster", p.title) loading="lazy" decoding="async" />
+                                <span class="card-index">{p.num.clone()}</span>
+                                <span class="card-category">{p.tags.first().cloned().unwrap_or_default()}</span>
+                                {p.video.is_some().then(|| view! { <span class="preview-label">"HOVER · SOUND ON"</span> })}
                             </div>
-                            <div class="project-card-copy"><div><h3>{p.title.clone()}</h3><span class="project-subtitle">{p.subtitle.clone()}</span></div><span class="project-open">"↗"</span></div>
-                            <div class="project-card-meta"><div>{p.tags.iter().cloned().map(|t| view! { <span>{t}</span> }).collect_view()}</div><p>{p.desc.clone()}</p></div>
+                            <div class="showcase-copy">
+                                <p class="showcase-eyebrow">{p.subtitle.clone()}</p>
+                                <div class="showcase-title-row"><h3>{p.title.clone()}</h3><span class="card-expand">"+"</span></div>
+                                <p class="showcase-summary">{p.desc.clone()}</p>
+                                <div class="showcase-tags">{p.tags.iter().take(3).cloned().map(|t| view! { <span>{t}</span> }).collect_view()}</div>
+                                {(!p.href.is_empty() && p.href != "#").then(|| view! {
+                                    <a class="card-visit" href=p.href.clone() target="_blank" rel="noopener noreferrer" on:click=|ev| ev.stop_propagation()>"VIEW WEBSITE" <span>"↗"</span></a>
+                                })}
+                            </div>
                         </article>
                     }
                 }).collect_view()}
@@ -46,7 +54,7 @@ pub fn Projects() -> impl IntoView {
                     <div class="project-modal-panel" on:click=|ev| ev.stop_propagation()>
                         <button class="modal-close hover-target" aria-label="Close project details" on:click=move |_| close_button.set(None)>"CLOSE ×"</button>
                         <div class="modal-media">
-                            {match p.video.clone() { Some(src) => view! { <video src=src poster=p.poster.clone() controls autoplay prop:muted=true loop playsinline></video> }.into_any(), None => view! { <img src=p.poster.clone() alt=format!("{} project poster", p.title) /> }.into_any() }}
+                            {match p.video.clone() { Some(src) => view! { <video src=src poster=p.poster.clone() controls autoplay prop:muted=false loop playsinline></video> }.into_any(), None => view! { <img src=p.poster.clone() alt=format!("{} project poster", p.title) /> }.into_any() }}
                         </div>
                         <div class="modal-copy">
                             <div class="modal-heading"><span>{p.num.clone()}</span><h3>{p.title.clone()}</h3><p>{p.subtitle.clone()}</p></div>

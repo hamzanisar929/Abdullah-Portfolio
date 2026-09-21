@@ -15,7 +15,7 @@ pub fn Splash() -> impl IntoView {
                 <div class="stamp-block stamp-1 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-text">"SOFTWARE"</div>
                 <div class="stamp-block stamp-2 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-text">"ENGINEER"</div>
                 <div class="stamp-block stamp-3 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-red">"MUHAMMAD"</div>
-                <div class="stamp-block stamp-4 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-red">"ABDULLAH"</div>
+                <div class="stamp-block stamp-4 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-red">"HAMZA"</div>
             </div>
             <div class="splash-progress-ring w-[60px] h-[60px]">
                 <svg viewBox="0 0 100 100" class="w-full h-full -rotate-90">

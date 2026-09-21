@@ -51,8 +51,8 @@ fn App() -> impl IntoView {
     });
 
     view! {
-        <Title text="MUHAMMAD ABDULLAH [MANIFESTO] — Systems Engineer" />
-        <Meta name="description" content="Muhammad Abdullah — Polyglot Systems Programmer specialize in high-throughput, memory-safe architectures." />
+        <Title text="MUHAMMAD HAMZA [MANIFESTO] — Full-Stack Developer" />
+        <Meta name="description" content="Muhammad Hamza — Full-stack developer building modern SaaS platforms and AI-powered web applications." />
 
         <Splash />
 
