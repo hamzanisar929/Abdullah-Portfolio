@@ -791,8 +791,8 @@
   aspect-ratio: 1.18 / 1;
   overflow: hidden;
   background: #151515;
-  border: 1px solid #222;
-  border-radius: 20px;
+  border: 1px solid #292929;
+  border-radius: 16px;
 }
 .project-media img, .project-media video {
   position: absolute;
@@ -801,6 +801,7 @@
   height: 100%;
   object-fit: contain;
   background: #080808;
+  border-radius: inherit;
 }
 .project-preview {
   z-index: 1;
