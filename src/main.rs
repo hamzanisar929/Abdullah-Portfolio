@@ -19,6 +19,7 @@ use components::{
     ticker::Ticker,
     hero::Hero,
     projects::Projects,
+    resume::Resume,
     philosophy::Philosophy,
     experience::Experience,
     skills::Skills,
@@ -64,6 +65,8 @@ fn App() -> impl IntoView {
             <Hero />
 
             <Projects />
+
+            <Resume />
 
             <Ticker reverse=true />
 

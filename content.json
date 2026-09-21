@@ -59,7 +59,7 @@
       "num": "06",
       "title": "Meet AI", "subtitle": "AI MEETING ASSISTANT PLATFORM", "tags": ["NEXT.JS", "OPENAI", "AUTOMATION", "2026"],
       "desc": "An AI meeting assistant that records conversations, creates summaries, extracts action items, and automates follow-up workflows.",
-      "accent": "black", "href": "https://github.com/abdullahdhillu/zoomer.git", "poster": "/projects/posters/meet-ai.png", "video": "/projects/videos/meet-ai.mp4"
+      "accent": "black", "href": "https://github.com/abdullahdhillu/zoomer.git", "poster": "/projects/posters/meet-ai.jpg", "video": "/projects/videos/meet-ai.mp4"
     },
     {
       "num": "07",
@@ -70,7 +70,7 @@
     {
       "num": "08", "title": "Streamify", "subtitle": "AI VIDEO RECORDING & COLLABORATION", "tags": ["NEXT.JS", "AI", "VIDEO", "2026"],
       "desc": "A video collaboration platform with optimized recording, intelligent media processing, workspaces, and team productivity features.",
-      "accent": "black", "href": "https://github.com/abdullahdhillu/Streamify.git", "poster": "/projects/posters/streamify.png", "video": "/projects/videos/streamify.mp4"
+      "accent": "black", "href": "https://github.com/abdullahdhillu/Streamify.git", "poster": "/projects/posters/streamify.jpg", "video": "/projects/videos/streamify.mp4"
     },
     {
       "num": "09", "title": "Lemon AI", "subtitle": "AI SOCIAL MEDIA WORKSPACE", "tags": ["AI WRITING", "CALENDAR", "SOCIAL", "2026"],
@@ -80,7 +80,7 @@
     {
       "num": "10", "title": "Dent AI", "subtitle": "AI-POWERED DENTAL ASSISTANT", "tags": ["OPENAI", "VOICE AI", "LLM", "2025"],
       "desc": "A voice and text dental assistant offering contextual patient conversations, symptom guidance, and appointment support.",
-      "accent": "blue", "href": "https://dent-ai-sand.vercel.app", "poster": "/projects/posters/dent-ai.png", "video": "/projects/videos/dent-ai.mp4"
+      "accent": "blue", "href": "https://dent-ai-sand.vercel.app", "poster": "/projects/posters/dent-ai.jpg", "video": "/projects/videos/dent-ai.mp4"
     },
     {
       "num": "11", "title": "POS Biotin", "subtitle": "PHARMACY POINT OF SALE", "tags": ["POS", "INVENTORY", "ANALYTICS", "2025"],
