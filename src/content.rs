@@ -39,6 +39,8 @@ pub struct Project {
     pub desc:     String,
     pub accent:   String,
     pub href:     String,
+    pub poster:   String,
+    pub video:    Option<String>,
 }
 
 #[derive(Deserialize, Clone)]

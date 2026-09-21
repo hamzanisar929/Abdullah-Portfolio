@@ -27,75 +27,75 @@
   "projects": [
     {
       "num": "01",
-      "title": "Auta",
-      "subtitle": "INSTAGRAM DM AUTOMATION PLATFORM",
-      "tags": ["NEXT.JS", "META API", "WEBHOOKS", "2025"],
-      "desc": "AI-powered Instagram automation platform leveraging Graph API integrations, webhook events, and intelligent response workflows to automate customer engagement and messaging operations.",
-      "accent": "red",
-      "href": "#"
+      "title": "Orchestra", "subtitle": "VISUAL AI WORKFLOW ORCHESTRATION", "tags": ["AI AGENTS", "WORKFLOWS", "FULL STACK", "2026"],
+      "desc": "A visual platform for building AI applications with reusable agents, knowledge sources, integrations, and production-ready workflow templates.",
+      "accent": "blue", "href": "", "poster": "/projects/posters/orchestra.png", "video": "/projects/videos/orchestra.m4v"
     },
     {
       "num": "02",
-      "title": "DentAI",
-      "subtitle": "AI-POWERED DENTAL ASSISTANT",
-      "tags": ["OPENAI", "VOICE AI", "LLM", "2025"],
-      "desc": "Intelligent dental assistant providing voice and text interactions, symptom-based recommendations, contextual conversations, and AI-powered support for patient engagement.",
-      "accent": "blue",
-      "href": "#"
+      "title": "WACRM", "subtitle": "CUSTOMER RELATIONSHIP PLATFORM", "tags": ["NEXT.JS", "CRM", "AUTOMATION", "2026"],
+      "desc": "A modern CRM for managing contacts, conversations, deals, broadcasts, automations, and AI-assisted customer workflows in one workspace.",
+      "accent": "blue", "href": "https://wacrm-mdli4xf77-enigjes-7492s-projects.vercel.app", "poster": "/projects/posters/wacrm.jpg", "video": "/projects/videos/wacrm.mp4"
     },
     {
       "num": "03",
-      "title": "Wild Oasis",
-      "subtitle": "HOTEL BOOKING & MANAGEMENT SYSTEM",
-      "tags": ["REACT", "SUPABASE", "CRUD", "2025"],
-      "desc": "Comprehensive hotel management platform featuring reservation tracking, room management, authentication, protected routes, and real-time booking workflows.",
-      "accent": "yellow",
-      "href": "#"
+      "title": "Nodebase", "subtitle": "VISUAL AI AUTOMATION BUILDER", "tags": ["AI MODELS", "APIS", "WORKFLOWS", "2026"],
+      "desc": "A node-based automation platform that connects AI models, APIs, forms, triggers, and communication tools through visual workflows.",
+      "accent": "red", "href": "https://nodebase-one.vercel.app", "poster": "/projects/posters/nodebase.png", "video": "/projects/videos/nodebase.mp4"
     },
     {
       "num": "04",
-      "title": "Streamify",
-      "subtitle": "AI VIDEO RECORDING & COLLABORATION PLATFORM",
-      "tags": ["NEXT.JS", "AI", "VIDEO", "2026"],
-      "desc": "Full-stack video collaboration platform with optimized recording pipelines, intelligent media processing, workspace management, and team-focused productivity features.",
-      "accent": "black",
-      "href": "#"
+      "title": "Voice of Human", "subtitle": "REAL-TIME AI VOICE APPLICATIONS", "tags": ["OPENAI", "ELEVENLABS", "WEBSOCKETS", "2025"],
+      "desc": "Conversational AI applications combining speech recognition, language models, voice synthesis, and real-time communication.",
+      "accent": "blue", "href": "https://github.com/abdullahdhillu/Cursor.git", "poster": "/projects/posters/voice-of-human.png", "video": "/projects/videos/voice-of-human.mp4"
     },
     {
       "num": "05",
-      "title": "Search Core",
-      "subtitle": "DISTRIBUTED SEARCH ENGINE INFRASTRUCTURE",
-      "tags": ["NODE.JS", "REDIS", "CRAWLER", "2026"],
-      "desc": "Distributed web crawler and indexing engine built with scalable master-worker architecture, semantic ranking, vector search, and intelligent crawling prioritization.",
-      "accent": "red",
-      "href": "#"
+      "title": "Wayfind CRM", "subtitle": "LEAD & SALES MANAGEMENT", "tags": ["CRM", "SALES", "ANALYTICS", "2025"],
+      "desc": "A focused CRM for managing leads, contacts, deals, activities, projects, reporting, and day-to-day sales delivery.",
+      "accent": "blue", "href": "https://wayfind-khngyd9af-enigjes-7492s-projects.vercel.app", "poster": "/projects/posters/wayfind-crm.jpg", "video": "/projects/videos/wayfind-crm.mp4"
     },
     {
       "num": "06",
-      "title": "Voice Of HUman",
-      "subtitle": "REAL-TIME AI VOICE APPLICATIONS",
-      "tags": ["OPENAI", "ELEVENLABS", "WEBSOCKETS", "2025"],
-      "desc": "Collection of conversational AI applications combining speech recognition, large language models, voice synthesis, and real-time communication technologies.",
-      "accent": "blue",
-      "href": "#"
+      "title": "Meet AI", "subtitle": "AI MEETING ASSISTANT PLATFORM", "tags": ["NEXT.JS", "OPENAI", "AUTOMATION", "2026"],
+      "desc": "An AI meeting assistant that records conversations, creates summaries, extracts action items, and automates follow-up workflows.",
+      "accent": "black", "href": "https://github.com/abdullahdhillu/zoomer.git", "poster": "/projects/posters/meet-ai.png", "video": "/projects/videos/meet-ai.mp4"
     },
     {
       "num": "07",
-      "title": "Coder",
-      "subtitle": "AI-POWERED CODING ASSISTANT",
-      "tags": ["NEXT.JS", "OPENAI", "TYPESCRIPT", "2026"],
-      "desc": "Intelligent coding assistant inspired by modern AI IDEs. Features context-aware code generation, debugging support, code explanations, refactoring suggestions, and real-time developer assistance powered by large language models.",
-      "accent": "red",
-      "href": "https://github.com/abdullahdhillu/Cursor.git"
+      "title": "Auta", "subtitle": "INSTAGRAM DM AUTOMATION PLATFORM", "tags": ["NEXT.JS", "META API", "WEBHOOKS", "2025"],
+      "desc": "Instagram automation with Graph API integrations, webhook events, and intelligent response workflows for customer messaging.",
+      "accent": "red", "href": "https://auta-main.vercel.app/", "poster": "/projects/posters/auta.webp", "video": "/projects/videos/auta.mp4"
     },
     {
-      "num": "06",
-      "title": "MeetAI",
-      "subtitle": "AI MEETING ASSISTANT PLATFORM",
-      "tags": ["NEXT.JS", "OPENAI", "AUTOMATION", "2026"],
-      "desc": "AI-powered meeting assistant that records conversations, generates intelligent summaries, extracts action items, tracks decisions, and automates post-meeting workflows to improve team productivity.",
-      "accent": "blue",
-      "href": "https://github.com/abdullahdhillu/zoomer.git"
+      "num": "08", "title": "Streamify", "subtitle": "AI VIDEO RECORDING & COLLABORATION", "tags": ["NEXT.JS", "AI", "VIDEO", "2026"],
+      "desc": "A video collaboration platform with optimized recording, intelligent media processing, workspaces, and team productivity features.",
+      "accent": "black", "href": "https://github.com/abdullahdhillu/Streamify.git", "poster": "/projects/posters/streamify.png", "video": "/projects/videos/streamify.mp4"
+    },
+    {
+      "num": "09", "title": "Lemon AI", "subtitle": "AI SOCIAL MEDIA WORKSPACE", "tags": ["AI WRITING", "CALENDAR", "SOCIAL", "2026"],
+      "desc": "An AI-powered content workspace for capturing ideas, writing posts, organizing a calendar, and publishing consistently.",
+      "accent": "yellow", "href": "https://lemon-ai-social-scheduler.vercel.app", "poster": "/projects/posters/lemon-ai.jpg", "video": "/projects/videos/lemon-ai.mp4"
+    },
+    {
+      "num": "10", "title": "Dent AI", "subtitle": "AI-POWERED DENTAL ASSISTANT", "tags": ["OPENAI", "VOICE AI", "LLM", "2025"],
+      "desc": "A voice and text dental assistant offering contextual patient conversations, symptom guidance, and appointment support.",
+      "accent": "blue", "href": "https://dent-ai-sand.vercel.app", "poster": "/projects/posters/dent-ai.png", "video": "/projects/videos/dent-ai.mp4"
+    },
+    {
+      "num": "11", "title": "POS Biotin", "subtitle": "PHARMACY POINT OF SALE", "tags": ["POS", "INVENTORY", "ANALYTICS", "2025"],
+      "desc": "A pharmacy operations dashboard for sales, inventory, product management, reporting, and daily point-of-sale workflows.",
+      "accent": "blue", "href": "https://pos-pharmacy-xi.vercel.app", "poster": "/projects/posters/pos-biotin.webp", "video": null
+    },
+    {
+      "num": "12", "title": "Build Estate", "subtitle": "AI-POWERED REAL ESTATE PLATFORM", "tags": ["REACT", "NODE.JS", "AI", "2025"],
+      "desc": "A property discovery platform with intelligent search, rich listings, investment insights, and appointment booking.",
+      "accent": "red", "href": "https://build-estate-ruddy.vercel.app/", "poster": "/projects/posters/build-estate.webp", "video": null
+    },
+    {
+      "num": "13", "title": "Safa Cafe", "subtitle": "RESTAURANT ORDERING EXPERIENCE", "tags": ["ECOMMERCE", "FOOD", "RESPONSIVE", "2025"],
+      "desc": "A responsive restaurant storefront with product discovery, promotions, menus, and a streamlined online ordering experience.",
+      "accent": "yellow", "href": "", "poster": "/projects/posters/safa-cafe.png", "video": null
     }
   ],
   "experience": [

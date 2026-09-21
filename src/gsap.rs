@@ -67,6 +67,7 @@ export function play_splash() {
     const tl = gsap.timeline({
         onComplete: () => {
             document.body.classList.remove('is-loading');
+            init_project_media_inner();
             animate_on_scroll_inner();
         }
     });
@@ -106,6 +107,18 @@ export function play_splash() {
             // Start hero animation immediately after splash is gone
             animate_hero_inner();
         }
+    });
+}
+
+function init_project_media_inner() {
+    document.querySelectorAll('.project-preview').forEach(video => {
+        video.muted = true;
+        const ready = () => {
+            video.parentElement.classList.add('video-ready');
+            video.play().catch(() => {});
+        };
+        if (video.readyState >= 2) ready();
+        else video.addEventListener('canplay', ready, { once: true });
     });
 }
 
