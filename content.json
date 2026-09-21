@@ -91,11 +91,6 @@
       "num": "12", "title": "Build Estate", "subtitle": "AI-POWERED REAL ESTATE PLATFORM", "tags": ["REACT", "NODE.JS", "AI", "2025"],
       "desc": "A property discovery platform with intelligent search, rich listings, investment insights, and appointment booking.",
       "accent": "red", "href": "https://build-estate-ruddy.vercel.app/", "poster": "/projects/posters/build-estate.webp", "video": null
-    },
-    {
-      "num": "13", "title": "Safa Cafe", "subtitle": "RESTAURANT ORDERING EXPERIENCE", "tags": ["ECOMMERCE", "FOOD", "RESPONSIVE", "2025"],
-      "desc": "A responsive restaurant storefront with product discovery, promotions, menus, and a streamlined online ordering experience.",
-      "accent": "yellow", "href": "", "poster": "/projects/posters/safa-cafe.png", "video": null
     }
   ],
   "experience": [
@@ -204,10 +199,10 @@
     }
   ],
   "contact": {
-    "email": "[abdullahdhillu99@gmail.com](mailto:abdullahdhillu99@gmail.com)",
-    "github_org": "https://github.com/abdullahdhillu",
-    "github_personal": "https://github.com/abdullahdhillu",
-    "linkedin": "https://linkedin.com/in/dhillon99",
+    "email": "enigjes@gmail.com",
+    "github_org": "https://github.com/hamzanisar929",
+    "github_personal": "https://github.com/hamzanisar929",
+    "linkedin": "https://www.linkedin.com/in/muhammad-hamza-enigjes/",
     "youtube": "#",
     "medium": "#",
     "discord": "#",

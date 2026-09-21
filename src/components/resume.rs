@@ -9,14 +9,14 @@ pub fn Resume() -> impl IntoView {
             <div class="resume-copy">
                 <span class="resume-kicker">"PERSONNEL FILE / 2026"</span>
                 <h2>"RESUME" <em>"DECODED."</em></h2>
-                <p>"A two-page field report covering the systems, products, and measurable outcomes behind the work. Tap the encrypted document to reveal the file."</p>
+                <p>"A focused field report covering the systems, products, and measurable outcomes behind the work. Tap the encrypted document to reveal and download the file."</p>
                 <div class="resume-signals">
-                    <span>"FULL-STACK"</span><span>"AI ENGINEERING"</span><span>"13 PROJECTS"</span>
+                    <span>"FULL-STACK"</span><span>"AI ENGINEERING"</span><span>"12 PROJECTS"</span>
                 </div>
-                <a class="resume-download hover-target" href="/resume/Muhammad-Hamza-Resume.pdf" download="Muhammad-Hamza-Resume.pdf">"DOWNLOAD PDF" <span>"↓"</span></a>
+                <a class="resume-download hover-target" href="/resume/Muhammad-Hamza-Resume.pdf" download="Muhammad-Hamza-Resume.pdf">"DOWNLOAD RESUME" <span>"↓"</span></a>
             </div>
 
-            <button class="resume-stage hover-target" class:decoded=move || decoded.get() on:click=move |_| set_decoded.update(|value| *value = !*value) aria-label="Reveal Muhammad Hamza resume">
+            <a class="resume-stage hover-target" class:decoded=move || decoded.get() on:click=move |_| set_decoded.update(|value| *value = !*value) href="/resume/Muhammad-Hamza-Resume.pdf" download="Muhammad-Hamza-Resume.pdf" aria-label="Decrypt and download Muhammad Hamza resume">
                 <div class="resume-orbit orbit-one"></div>
                 <div class="resume-orbit orbit-two"></div>
                 <div class="resume-document">
@@ -31,7 +31,7 @@ pub fn Resume() -> impl IntoView {
                     <span class="resume-corner corner-a"></span><span class="resume-corner corner-b"></span>
                 </div>
                 <span class="resume-status">{move || if decoded.get() { "FILE DECRYPTED / CLICK TO ENCRYPT" } else { "SECURE FILE / ACCESS REQUIRED" }}</span>
-            </button>
+            </a>
         </section>
     }
 }

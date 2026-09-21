@@ -52,7 +52,7 @@ fn App() -> impl IntoView {
     });
 
     view! {
-        <Title text="MUHAMMAD HAMZA [MANIFESTO] — Full-Stack Developer" />
+        <Title text="Muhammad Hamza Portfolio" />
         <Meta name="description" content="Muhammad Hamza — Full-stack developer building modern SaaS platforms and AI-powered web applications." />
 
         <Splash />
