@@ -81,6 +81,12 @@ function init_project_media_inner() {
             video.volume = 1;
         });
     }, { once: true });
+    document.querySelectorAll('.showcase-card').forEach(card => {
+        card.addEventListener('click', (event) => {
+            if (event.target.closest('a')) return;
+            window.setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'center' }), 80);
+        });
+    });
 }
 
 function animate_hero_inner() {
